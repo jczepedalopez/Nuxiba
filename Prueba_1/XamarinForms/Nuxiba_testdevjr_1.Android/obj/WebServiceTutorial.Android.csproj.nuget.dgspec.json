@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1.Android/Nuxiba_testdevjr_1.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1.Android/Nuxiba_testdevjr_1.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1.Android/Nuxiba_testdevjr_1.Android.csproj",
+        "projectName": "Nuxiba_testdevjr_1.Android",
+        "projectPath": "/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1.Android/Nuxiba_testdevjr_1.Android.csproj",
+        "packagesPath": "/Users/juliozepeda/.nuget/packages/",
+        "outputPath": "/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/juliozepeda/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "/Users/juliozepeda/Downloads/Packages_NuGet_1_46": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/BroxelDev/_packaging/Broxel/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.1874, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

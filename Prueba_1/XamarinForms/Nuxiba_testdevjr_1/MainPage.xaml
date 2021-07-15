@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Nuxiba_testdevjr_1.app.ViewModels"
+             x:Class="Nuxiba_testdevjr_1.MainPage" x:Name="Page">
+    <ContentPage.BindingContext>
+        <local:UsersViewModel/>
+    </ContentPage.BindingContext>
+    <StackLayout Margin="20,35,20,20">
+        <Button Text="Obtener Usuarios" IsVisible="True" Command="{Binding SearchUsersCommand}" />        
+        <CollectionView x:Name="collectionView" ItemsSource="{Binding Users}">            
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                        <Label Text="{Binding Id}"
+                               FontSize="Medium"
+                               Margin="0,0,5,0"/>                        
+                        <Label Text="{Binding UserName}"                               
+                               FontSize="Medium"
+                               Margin="0,0,5,0"/>
+                        <Button Text="Ver Datos"
+                                CommandParameter="{Binding .}"
+                                Command="{Binding Source={x:Reference Page}, Path=BindingContext.SearchUserCommand}"
+                                HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

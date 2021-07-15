@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1.iOS/Nuxiba_testdevjr_1.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1.iOS/Nuxiba_testdevjr_1.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1.iOS/Nuxiba_testdevjr_1.iOS.csproj",
+        "projectName": "Nuxiba_testdevjr_1.iOS",
+        "projectPath": "/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1.iOS/Nuxiba_testdevjr_1.iOS.csproj",
+        "packagesPath": "/Users/juliozepeda/.nuget/packages/",
+        "outputPath": "/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/juliozepeda/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "/Users/juliozepeda/Downloads/Packages_NuGet_1_46": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/BroxelDev/_packaging/Broxel/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.1874, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

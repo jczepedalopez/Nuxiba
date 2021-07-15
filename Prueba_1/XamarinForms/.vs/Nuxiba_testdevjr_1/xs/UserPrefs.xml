@@ -1,0 +1,36 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{3B21250E-0379-4CAC-B706-36E58CC05A58}|Default">
+  <MonoDevelop.Ide.ItemProperties.Nuxiba__testdevjr__1.Android PreferredExecutionTarget="Android.Pixel_3_XL_Pie_9.0_-_API_28" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Nuxiba_testdevjr_1/ViewModels/UsersViewModel.cs" Line="10" Column="44" />
+      <File FileName="Nuxiba_testdevjr_1/ViewModels/UserViewModel.cs" Line="36" Column="45" />
+      <File FileName="Nuxiba_testdevjr_1/TodosPage.xaml" Line="15" Column="65" />
+      <File FileName="Nuxiba_testdevjr_1/ViewModels/TodosViewModel.cs" Line="65" Column="1" />
+      <File FileName="Nuxiba_testdevjr_1/RestService.cs" Line="90" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Nuxiba_testdevjr_1" expanded="True" selected="True">
+            <Node name="Nuxiba_testdevjr_1.app" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="TodosPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/juliozepeda/Library/Caches/VisualStudio/8.0/Symbols/mono/mono/5e9cb6d1c1de430965312927d5aed7fcb27bfa73</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/RestService.cs" relfile="Nuxiba_testdevjr_1/RestService.cs" line="106" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

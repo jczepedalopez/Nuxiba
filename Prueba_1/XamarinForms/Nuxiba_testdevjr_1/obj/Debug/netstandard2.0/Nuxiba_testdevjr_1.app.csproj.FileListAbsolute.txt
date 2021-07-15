@@ -1,0 +1,14 @@
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/bin/Debug/netstandard2.0/Nuxiba_testdevjr_1.app.deps.json
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/bin/Debug/netstandard2.0/Nuxiba_testdevjr_1.app.dll
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/bin/Debug/netstandard2.0/Nuxiba_testdevjr_1.app.pdb
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/obj/Debug/netstandard2.0/PostsPage.xaml.g.cs
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/obj/Debug/netstandard2.0/TodosPage.xaml.g.cs
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/obj/Debug/netstandard2.0/UserPage.xaml.g.cs
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/obj/Debug/netstandard2.0/Nuxiba_testdevjr_1.app.AssemblyInfoInputs.cache
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/obj/Debug/netstandard2.0/Nuxiba_testdevjr_1.app.AssemblyInfo.cs
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/obj/Debug/netstandard2.0/Nuxiba_testdevjr_1.app.csproj.CoreCompileInputs.cache
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/obj/Debug/netstandard2.0/Nuxiba_testdevjr_1.app.dll
+/Users/juliozepeda/Nuxiba/testdevjr/Prueba_1/XamarinForms/Nuxiba_testdevjr_1/obj/Debug/netstandard2.0/Nuxiba_testdevjr_1.app.pdb
