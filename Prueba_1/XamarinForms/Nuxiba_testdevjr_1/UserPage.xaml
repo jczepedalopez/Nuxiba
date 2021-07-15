@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
+             x:Class="Nuxiba_testdevjr_1.UserPage">
+    <StackLayout Margin="20,35,20,20" VerticalOptions="FillAndExpand">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+            <Label Text="{Binding User.Name}"
+                    FontSize="Medium"
+                    Margin="0,0,5,0"/>                        
+            <Label Text="{Binding User.UserName}"                               
+                    FontSize="Medium"
+                    Margin="0,0,5,0"/>
+            <Label Text="{Binding User.Email}"                               
+                               FontSize="Medium"
+                               Margin="0,0,5,0"/>                        
+        </StackLayout>
+        <StackLayout VerticalOptions="End">
+            <Button Text="Todos" IsVisible="True" Command="{Binding TodosCommand}" />
+            <Button Text="Posts" IsVisible="True" Command="{Binding PostsCommand}" />                  
+        </StackLayout>        
+    </StackLayout>
+</ContentPage>

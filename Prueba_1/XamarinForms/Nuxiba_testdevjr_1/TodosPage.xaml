@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
+             x:Class="Nuxiba_testdevjr_1.TodosPage">    
+    <StackLayout Margin="20,35,20,20" VerticalOptions="FillAndExpand">
+        <Button Text="Agregar tarea" Command="{Binding AddCommand}"/>
+        <StackLayout x:Name="AddTodo" IsVisible="{Binding FormVisible}">
+            <Label Text="Id"/>
+            <Entry Text="{Binding Id, Mode=TwoWay}"/>
+            <Label Text="UserId"/>
+            <Entry Text="{Binding UserId, Mode=TwoWay}"/>
+            <Label Text="Title"/>
+            <Entry Text="{Binding Title, Mode=TwoWay}"/>
+            <Label Text="Completado"/>
+            <CheckBox IsChecked="{Binding Completed, Mode=TwoWay}"/>
+            <Button Text="Guardar" Command="{Binding SaveTodoCommand}"/>
+        </StackLayout>
+        <CollectionView x:Name="collectionView" ItemsSource="{Binding Todos}">            
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                        <Label Text="{Binding UserId}"
+                               FontSize="Medium"
+                               Margin="0,0,5,0"/>
+                        <Label Text="{Binding Id}"
+                               FontSize="Medium"
+                               Margin="0,0,5,0"/>
+                        <Label Text="{Binding Title}"
+                               FontSize="Medium"
+                               Margin="0,0,5,0"/>                        
+                        <Label Text="{Binding Completed}"                               
+                               FontSize="Medium"
+                               Margin="0,0,5,0"/>                        
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>        
+    </StackLayout>
+</ContentPage>
